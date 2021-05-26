@@ -1,0 +1,63 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.untitledPrototype.controller.Page5" xmlns="sap.m">
+    <Page showHeader="true" title="Menú principal" showFooter="true" showNavButton="false">
+        <content>
+            <HBox alignItems="Center" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false">
+                <items>
+                    <Image src="/webapp/resources/Captura_de_pantalla_de_2021-05-19_20-24-38-removebg-preview.png" height="220px" width="220px" visible="true" densityAware="false" class="sapUiMediumMargin"/>
+                    <VBox alignItems="Center" direction="Column" fitContainer="false" width="auto" height="auto" justifyContent="Center" renderType="Div" visible="true" displayInline="false">
+                        <items>
+                            <Title text="Información" titleStyle="H3" width="auto" textAlign="Begin" visible="true" wrapping="false"/>
+                            <Text text="{Usuario}" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true" class="sapUiTinyMargin"/>
+                            <Text text="{Nombre}" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true" class="sapUiTinyMargin"/>
+                            <Text text="{Direccion}" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                        </items>
+                        <layoutData/>
+                    </VBox>
+                    <VBox alignItems="Center" direction="Column" fitContainer="false" width="auto" height="auto" justifyContent="Center" renderType="Div" visible="true" displayInline="false" class="sapUiLargeMarginBegin">
+                        <items>
+                            <Title text="Información acudiente" titleStyle="H3" width="auto" textAlign="Begin" visible="true" wrapping="false"/>
+                            <Text text="{NombreAcudiente}" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true" class="sapUiTinyMargin"/>
+                            <Text text="{CelularAcudiente}" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true" class="sapUiTinyMargin"/>
+                            <Text text="{CorreoAcudiente}" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                        </items>
+                        <layoutData/>
+                    </VBox>
+                    <HBox alignItems="End" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="End" renderType="Div" visible="true" displayInline="false" class="sapUiLargeMarginBegin">
+                        <items>
+                            <Button text="Editar perfil" type="Accept" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress"/>
+                        </items>
+                        <layoutData/>
+                    </HBox>
+                </items>
+                <layoutData/>
+            </HBox>
+            <HBox alignItems="Stretch" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false">
+                <items>
+                    <GenericTile header="Solicitar Prestámo" subheader="crear solicitud" frameType="OneByOne" class="sapUiLargeMargin" press="_onGenericTilePress">
+                        <tileContent>
+                            <TileContent footer="" unit="">
+                                <content>
+                                    <NewsContent contentText="Solicitar ->" subheader="" class="sapUiMediumMarginTop sapUiSmallMarginBegin"/>
+                                </content>
+                            </TileContent>
+                        </tileContent>
+                    </GenericTile>
+                    <GenericTile header="Historial Prestámo" subheader="historial" frameType="OneByOne" class="sapUiLargeMargin" press="_onGenericTilePress1">
+                        <tileContent>
+                            <TileContent footer="" unit="">
+                                <content>
+                                    <NewsContent contentText="Ver historial ->" subheader="" class="sapUiMediumMarginTop sapUiSmallMarginBegin"/>
+                                </content>
+                            </TileContent>
+                        </tileContent>
+                    </GenericTile>
+                </items>
+                <layoutData/>
+            </HBox>
+        </content>
+        <footer/>
+        <headerContent/>
+        <subHeader/>
+        <customHeader/>
+    </Page>
+</mvc:View>

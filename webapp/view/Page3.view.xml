@@ -1,0 +1,29 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.untitledPrototype.controller.Page3" xmlns="sap.m">
+    <Page showHeader="true" title="Global Gymnastics" showFooter="true" showNavButton="false">
+        <content>
+            <VBox alignItems="Stretch" direction="Column" fitContainer="false" width="auto" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false">
+                <items>
+                    <Image src="/webapp/resources/Captura_de_pantalla_de_2021-05-19_20-13-14.png" height="73px" width="1278px" visible="true" densityAware="false"/>
+                </items>
+                <layoutData/>
+            </VBox>
+            <Image src="/webapp/resources/Captura_de_pantalla_de_2021-05-19_20-11-58.png" height="579.64px" width="1280px" visible="true" densityAware="false"/>
+            <HBox alignItems="Center" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Start" renderType="Div" visible="true" displayInline="false">
+                <items>
+                    <Image src="/webapp/resources/Captura_de_pantalla_de_2021-05-19_20-14-21.png" height="450px" width="650px" visible="true" densityAware="false"/>
+                    <HBox alignItems="Center" direction="Row" fitContainer="false" width="auto" height="auto" justifyContent="Center" renderType="Div" visible="true" displayInline="false" class="sapUiLargeMargin">
+                        <items>
+                            <Button text="Login" type="Default" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" class="sapUiLargeMargin" press="_onButtonPress"/>
+                        </items>
+                        <layoutData/>
+                    </HBox>
+                </items>
+                <layoutData/>
+            </HBox>
+        </content>
+        <footer/>
+        <headerContent/>
+        <subHeader/>
+        <customHeader/>
+    </Page>
+</mvc:View>

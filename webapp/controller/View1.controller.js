@@ -7,7 +7,7 @@ sap.ui.define([
 	function (Controller) {
 		"use strict";
 
-		return Controller.extend("namespace1.globalgymnastics.controller.View1", {
+		return Controller.extend("namespace1.globalgymnastics.controller.Page3", {
 			onInit: function () {
 
 			}

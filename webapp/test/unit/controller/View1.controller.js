@@ -1,13 +1,13 @@
 /*global QUnit*/
 
 sap.ui.define([
-	"namespace1/global_gymnastics/controller/View1.controller"
+	"namespace1/global_gymnastics/controller/Page3.controller"
 ], function (Controller) {
 	"use strict";
 
-	QUnit.module("View1 Controller");
+	QUnit.module("Page3 Controller");
 
-	QUnit.test("I should test the View1 controller", function (assert) {
+	QUnit.test("I should test the Page3 controller", function (assert) {
 		var oAppController = new Controller();
 		oAppController.onInit();
 		assert.ok(oAppController);
